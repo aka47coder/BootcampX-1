@@ -4,7 +4,7 @@ const pool = new Pool({
   user: 'vagrant',
   password: '123',
   host: 'localhost',
-  database: 'avantika'
+  database: 'avantika'//Supposed to use bootcampx as database but I made a mistake so database using is avantika
 });
 
 pool.query(`
